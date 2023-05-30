@@ -1,0 +1,23 @@
+* {
+	font-family: "Poppins", "SF Pro Text", "SF Pro Icons", "Helvetica Neue",
+		"Helvetica", "Arial", sans-serif;
+}
+
+.main {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.bg-snakers {
+	background-color: #333;
+}
+
+.bg-grey {
+	background-color: #323232;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 1%;
+	font-weight: bold !important;
+}

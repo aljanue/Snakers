@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="index.html" content="estructura de la web" />
+<title>Snakers</title>
+<link rel="icon" type="image/ico"
+	href="./images/Marca/fabicon_OSCURO.ico" sizes="64x64">
+<script src="./js/libCapas2223.js"></script>
+<script src="./js/carrito.js"></script>
+<script src="./js/main.js"></script>
+<link rel="stylesheet" href="./css/styles.css" type="text/css" />
+<link rel="stylesheet" href="./css/login.css" type="text/css" />
+
+<!-- Bootstrap -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+	crossorigin="anonymous">
+
+<!-- iconos fontawesome -->
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Tipografia poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+	href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap"
+	rel="stylesheet">
+
+</head>
+
+<body onload="Cargar('inicio.html', 'cuerpo')">
+	<header>
+		<div class="container-fluid">
+			<div class="cabecera">
+				<div class="logo">
+					<a href="#" onclick="Cargar('./html/inicio.html', 'cuerpo')"> <img
+						src="./images/Marca/Snakers+slogan(BLANCO).png" alt="Logo"
+						width="60"></a>
+				</div>
+
+				<nav class="navbar-expand-lg menu-abierto">
+					<button class="navbar-toggler text-white" type="button"
+						data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"><img class="menu"
+							src="./images/ICONS/hamburguesa.svg" alt="menu"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-tam">
+							<li class="nav-item"><a href="#"
+								onclick="Cargar('inicio.html', 'cuerpo')">Inicio</a></li>
+							<li class="nav-item"><a href="#"
+								onclick="Cargar('all-products.html', 'cuerpo')">Productos</a></li>
+							<li class="nav-item"><a href="#"
+								onclick="Cargar('./html/empresa.html', 'cuerpo')">Empresa</a></li>
+							<li class="nav-item"><a href="#"
+								onclick="Cargar('contacto.html', 'cuerpo')">Contacto</a></li>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="icons-navbar ">
+					<ul class=icons>
+						<li class="icon">
+							<button type="button" class="btn">
+								<img src="./images/ICONS/carrito.png"
+									onclick="Cargar('carrito.html', 'cuerpo')" alt="cart"
+									width=20>
+							</button>
+						</li>
+						<li class="icon">
+							<div class="dropdown">
+								<button class="btn btn-secondary dropdown-toggle" type="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<img src="./images/ICONS/usuario.png" alt="user" width=20>
+								</button>
+								<ul id = "dropdown" class="dropdown-menu">
+									
+								</ul>
+							</div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div id="cuerpo" class="main"></div>
+
+	<footer>
+		<div class="container-fluid">
+			<div class="row bg-color-snak text-white">
+				<div class="col-xs-12 col-md-6 col-lg-3 px-5 py-4">
+					<a class="snk-ft color-ft negrita" href="#"
+						onclick="Cargar('inicio.html', 'cuerpo')"> SNAKERS</a><br>
+					<p>Unleash your inner serpent</p>
+					<p class="pt-3 text-sm">
+						Encu&eacute;ntranos en 
+						<a href="https://www.google.com/maps/place/Villapene,+27375,+Lugo/@43.2317716,-7.5922577,15z/data=!3m1!4b1!4m6!3m5!1s0xd31c29defb03397:0xe0f5277f5c6b8076!8m2!3d43.2317725!4d-7.5835029!16s%2Fg%2F11clsz_lj_"
+							target="_blank" class="color-ft">Villapene, Lugo</a>
+					</p>
+				</div>
+				
+				<div class="col-xs-12 col-md-6 col-lg-3 px-5 py-4">
+					<a class="titulos-ft color-ft" href="#" 
+						onclick="Cargar('all-products.html', 'cuerpo')">
+						PRODUCTOS</a> <br>
+						<a class="color-ft" href="#" 
+							onclick="Cargar('all-products.html?marca=1', 'cuerpo')">
+							ADIDAS
+						</a> <br>
+						<a class="color-ft" href="#" 
+							onclick="Cargar('all-products.html?marca=2', 'cuerpo')">
+							NIKE
+						</a> <br>
+						<a class="color-ft" href="#" 
+							onclick="Cargar('all-products.html?marca=3', 'cuerpo')">
+							PUMA
+						</a> <br>
+				</div>
+				
+				<div class="col-xs-12 col-md-6 col-lg-3 px-5 py-4">
+					<a class="titulos-ft color-ft" href="#"
+						onclick="Cargar('./html/inicio.html', 'cuerpo')">
+						INICIO</a> <br>
+					<a class="titulos-ft color-ft" href="#"
+						onclick="Cargar('./html/empresa.html', 'cuerpo')">
+						EMPRESA</a> <br>
+					<a class="titulos-ft color-ft" href="#"
+						onclick="Cargar('./html/contacto.html', 'cuerpo')">
+						CONTACTO</a> <br>
+
+				</div>
+
+				<div class="col-xs-12 col-md-6 col-lg-3 px-5 py-4">
+					<label class="titulos-ft color-white">Redes sociales</label> <br>
+					<a class="color-ft" href="https://www.facebook.com" target="_blank">Facebook</a><br>
+					<a class="color-ft" href="https://www.instagram.com"
+						target="_blank">Instagram</a><br> <a class="color-ft"
+						href="https://www.linkedin.com" target="_blank">Linkedin</a><br>
+					<a class="color-ft" href="https://www.twitter.com" target="_blank">Twitter</a><br>
+					<a class="color-ft" href="https://www.youtube.com" target="_blank">Youtube</a>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+</body>
+</html>
