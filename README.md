@@ -1,4 +1,4 @@
 # Snakers
-Tienda online. Aplicación web full-stack.
+Online store. Full-stack web application.
 
-Este proyecto fue desarrollado desde cero utilizando la plataforma Eclipse para la programación y el servidor Tomcat para el despliegue. Para el almacenamiento de datos, se creó una base de datos en MariaDB. La parte del cliente se ha realizado utilizando HTML, CSS, JavaScript y J2EE. En cuanto a la parte del administrador, se ha utilziado PHP.
+This project was developed from scratch using the Eclipse platform for programming and the Tomcat server for deployment. For data storage, a database was created in MariaDB. The client part has been done using HTML, CSS, JavaScript and J2EE. As for the administrator part, PHP has been used.
